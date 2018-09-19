@@ -45,7 +45,7 @@ public class TennisGameTest {
 		
 		game.player1Scored();
 		game.player2Scored();
-		game.player2Scored();
+		
 		//Act
 		String score = game.getScore() ;
 		// Assert
@@ -64,5 +64,6 @@ public class TennisGameTest {
 		//Act
 		// This statement should cause an exception
 		game.player1Scored();			
-	}		
+	}
+	
 }
